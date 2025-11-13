@@ -7,6 +7,7 @@ import List02 from './pages/step03-component/List02';
 import NumberCount from './pages/step04-state/NumberCount';
 import FilterCommentList from './pages/step05-map,filter/FilterCommandList';
 import FindCommandList from './pages/step05-map,filter/FindCommandList';
+import ReduceCommandList from './pages/step05-map,filter/ReduceCommandList';
 import SomeEveryCommandList from './pages/step05-map,filter/SomeEveryCommandList';
 
 
@@ -33,6 +34,8 @@ function App() {
       <FindCommandList />
       <hr />
       <SomeEveryCommandList />
+      <hr />
+      <ReduceCommandList />
     </div>
   );
 }

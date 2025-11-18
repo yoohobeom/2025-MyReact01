@@ -1,4 +1,6 @@
 import './App.css';
+import EffectTest01 from './pages/step12-useEffect/EffectTest01';
+import EffectTest02 from './pages/step12-useEffect/EffectTest02';
 // import Library from './pages/step01-jsx/Library';
 // import Clock from './pages/step02-element/Clock';
 // import Comment from './pages/step03-componet/Comment';
@@ -26,8 +28,11 @@ import './App.css';
 // import CounterEx07 from './pages/step09-event2/CounterEx07';
 // import CounterEx08 from './pages/step09-event2/CounterEx08';
 // import Profile from './pages/step10-props/Profile';
-import ProfileSample from './pages/step10-props/ProfileSample';
-import ProfileSample2 from './pages/step10-props/ProfileSample2';
+// import ProfileSample from './pages/step10-props/ProfileSample';
+// import ProfileSample2 from './pages/step10-props/ProfileSample2';
+// import ProfileSample3 from './pages/step10-props/ProfileSample3';
+// import FormSample01 from './pages/step11-form/FormSample01';
+// import FormSample02 from './pages/step11-form/FormSample02';
 
 
 function App() {
@@ -85,10 +90,20 @@ function App() {
       <CounterEx07 />
       <hr />
       <CounterEx08 /> */}
-      <hr />
+      {/* <hr />
       <ProfileSample />
       <hr />
       <ProfileSample2 />
+      <hr />
+      <ProfileSample3 /> */}
+      {/* <hr />
+      <FormSample01 />
+      <hr />
+      <FormSample02 /> */}
+      <hr />
+      <EffectTest01 />
+      <hr />
+      <EffectTest02 />
     </div>
   );
 }

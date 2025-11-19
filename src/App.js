@@ -1,12 +1,19 @@
 import './App.css';
+// import NoContext from './pages/step17-NoContext/NoContext';
+// import Context from './pages/step18-Context/Context';
+import UseReducerTest01 from './pages/step19-Reducer/UseReducerTest01';
+// import UseIdTest01 from './pages/step16-useId/UseIdTest01';
+// import UseIdTest02 from './pages/step16-useId/UseIdTest02';
+// import UseIdTest03 from './pages/step16-useId/UseIdTest03';
 // import UseMemoTest01 from './pages/step13-useMemo/UseMemoTest01';
 // import UseMemoTest02 from './pages/step13-useMemo/UseMemoTest02';
 // import UseMemoTest03 from './pages/step13-useMemo/UseMemoTest03';
 // import UseCallBackTest01 from './pages/step14-useCallBack/UseCallBackTest01';
 // import UseCallBackTest02 from './pages/step14-useCallBack/UseCallBackTest02';
-import UseRefTest01 from './pages/step15-useRef/UseRefTest01';
-import UseRefTest02 from './pages/step15-useRef/UseRefTest02';
-import UseRefTest03 from './pages/step15-useRef/UseRefTest03';
+// import UseRefTest01 from './pages/step15-useRef/UseRefTest01';
+// import UseRefTest02 from './pages/step15-useRef/UseRefTest02';
+// import UseRefTest03 from './pages/step15-useRef/UseRefTest03';
+// import UseRefTest04 from './pages/step15-useRef/UseRefTest04';
 // import EffectTest01 from './pages/step12-useEffect/EffectTest01';
 // import EffectTest02 from './pages/step12-useEffect/EffectTest02';
 // import Library from './pages/step01-jsx/Library';
@@ -122,12 +129,27 @@ function App() {
       <UseCallBackTest01 />
       <hr />
       <UseCallBackTest02 /> */}
-      <hr />
+      {/* <hr />
       <UseRefTest01 />
       <hr />
       <UseRefTest02 />
       <hr />
       <UseRefTest03 />
+      <hr />
+      <UseRefTest04 /> */}
+      {/* <hr />
+      <UseIdTest01 />
+      <hr />
+      <UseIdTest02 /> */}
+      {/* <hr />
+      <UseIdTest03 /> */}
+      {/* <hr />
+      <NoContext />
+      <hr />
+      <Context /> */}
+      <hr />
+      <UseReducerTest01 />
+      
     </div>
   );
 }
